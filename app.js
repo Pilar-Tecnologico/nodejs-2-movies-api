@@ -22,6 +22,7 @@ app.get('/movies', (req, res) => {
     }
 });
 
+
 app.get('/movies/:id', (req, res) => {
     const { id } = req.params;
     const regex = /^tt[0-9]{7}$/
